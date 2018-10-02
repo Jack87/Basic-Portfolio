@@ -40,7 +40,8 @@ h2 {
     float: left;
     margin-top: 175px;
     background: #ffffff;
-    border: #dddddd 2px solid; 
+    border: #dddddd 2px solid;
+    text-align: left; 
 }
 
 nav {
@@ -56,13 +57,22 @@ nav {
 ul {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    display: flex;
 }
 
 li {
 	/* float: left; */
 	width: 33%;
-	padding: 10px;
+    padding: 10px;
+}
+#portfolio .portfolioIMG{
+    width: 325px;
+    height: 325px;
+    float: left;
+}
+.mainContent{
+    padding-left: 10px;
 }
 
 footer {
