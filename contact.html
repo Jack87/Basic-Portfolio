@@ -9,41 +9,43 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Akop Karapetyan</h1>
-        <div>
+        <div class="wrapper">
+            <div class="logo">
+                <h1>Akop Karapetyan</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html" class="withDivider">Portfolio</a></li>
+                    <li><a href="#" class="active withDivider">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#" class="active">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <div class="main">
+
+    <section class="content">
+        <div class="wrapper main">
             <h2>
                 Contact
             </h2>
-
-            <div class="container">
-                <div class="column">
-                    <form action="/action_page.php">
-                        <label for="fname">Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="John Smith">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                        <label for="subject">Message</label>
-                        <textarea id="message" name="message" placeholder="Write something.."></textarea>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
+            <div class="column">
+                <form action="#">
+                    <label for="firstname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John Smith">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
-    </div>
-    
+    </section>
+    <div class="spacer"></div>
     <footer>
-        &copy; Copyright 2018 Akop Karapetyan
+        <div class="wrapper">
+            &copy; Copyright 2018 Akop Karapetyan
+        </div>
     </footer>
 </body>
 </html>

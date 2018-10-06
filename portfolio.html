@@ -9,31 +9,56 @@
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div class="wrapper">
+            <div class="logo">
                 <h1>Akop Karapetyan</h1>
-        <div>    </header>
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="#" class="active">Portfolio</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
-    <div id="portfolio">
-        <h2>
-            Portfolio
-        </h2>
-        <p>
-            <img class="portfolioIMG" src="./assets/images/nature-q-c-640-480-4.jpg" alt="Hangman Photo">   
-            <img class="portfolioIMG" src="./assets/images/abstract-q-c-640-480-10.jpg" alt="RPG Game"> <br>
-            <img class="portfolioIMG" src="./assets/images/abstract-q-c-640-480-4.jpg" alt="Trivia Game">   
-            <img class="portfolioIMG" src="./assets/images/technics-q-c-640-480-2.jpg" alt="Rutgers Info Widget"> <br>
-            <img class="portfolioIMG" src="./assets/images/transport-q-c-640-480-10.jpg" alt="Rock Paper Scissors">
-        </p>
-    </div>
-
+            </div>    
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="#" class="active withDivider">Portfolio</a></li>
+                    <li><a href="contact.html" class="withDivider">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="content">
+        <div class ="wrapper main">
+            <div id="portfolio">
+                <h2>
+                    Portfolio
+                </h2>
+                <div class="gallery">
+                    <figure class="imageContainer">
+                        <img class="portfolioIMG" src="./assets/images/nature-q-c-640-480-4.jpg" alt="Hangman Photo">   
+                        <figcaption>Hangman</figcaption>
+                    </figure>
+                    <figure class="imageContainer">
+                        <img class="portfolioIMG" src="./assets/images/abstract-q-c-640-480-10.jpg" alt="RPG Game">
+                        <figcaption>RPG Game</figcaption>
+                    </figure>
+                    <figure class="imageContainer">
+                        <img class="portfolioIMG" src="./assets/images/abstract-q-c-640-480-4.jpg" alt="Trivia Game">   
+                        <figcaption>Trivia Game</figcaption>
+                    </figure>
+                    <figure class="imageContainer">                        
+                        <img class="portfolioIMG" src="./assets/images/technics-q-c-640-480-2.jpg" alt="Rutgers Info Widget"> 
+                        <figcaption>Rutgers Info Widget</figcaption>
+                    </figure>
+                    <figure class="imageContainer">
+                        <img class="portfolioIMG" src="./assets/images/transport-q-c-640-480-10.jpg" alt="Rock Paper Scissors">
+                        <figcaption>Rock Paper Scissors</figcaption>
+                    </figure>
+                </div>
+                <br class="clearfix">
+            </div>
+        </div>
+    </section>
+    <div class="spacer"></div>
     <footer>
-        &copy; Copyright 2018 Akop Karapetyan
+        <div class="wrapper">
+            &copy; Copyright 2018 Akop Karapetyan
+        </div>
     </footer>
 </body>
 </html>
