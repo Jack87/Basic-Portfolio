@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
  }
- .clearfix {
+.clearfix {
     clear: both;
 }
  html{
@@ -116,7 +116,7 @@ section {
     width: 325px;
 }
 .spacer {
-    padding-top: 50px;
+    padding-top: 75px;
 }
 figure {
     margin: 0 25px 25px 0;
